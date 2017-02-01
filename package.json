@@ -6,7 +6,8 @@
   "scripts": {
     "test": "standard --verbose --fix index.js",
     "prebuild": "npm test",
-    "build": "uglifyjs index.js --compress --mangle -o index.min.js"
+    "build": "uglifyjs index.js --compress --mangle -b 'beautify=false,quote_style=1' -o index.min.js",
+    "deploy": "gh-pages -d dist -b gh-pages"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,7 @@
   },
   "homepage": "https://github.com/bahmutov/game-of-github#readme",
   "devDependencies": {
+    "gh-pages": "0.12.0",
     "standard": "8.6.0",
     "uglify-js": "2.7.5"
   }
