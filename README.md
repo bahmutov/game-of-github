@@ -2,7 +2,11 @@
 
 > Play Game of Life in your GitHub contributions
 
+![Game of GitHub](images/game-of-github.gif)
+
 ## How to use
+
+### Copy / paste
 
 - Copy contents of [index.js](index.js)
 - Open DevTools while on `https://github.com/username`
@@ -10,15 +14,24 @@
 
 It should start the "Game of GitHub" 😎
 
-![Game of GitHub](images/game-of-github.gif)
-
 **Hint** [https://github.com/lholznagel](https://github.com/lholznagel) has
 the [most awesome one](https://youtu.be/52-BfHPTtnE)! Much better than my
 little [oscillators](https://youtu.be/gowPfBWkBKc).
 
-Or better, open DevTools / Sources tab. Open "Snippets" left tab, Right click
-and create new snippet. Paste the [index.js](index.js) and Save
-(Right click and select "Save"). Now you can run this snippet over and over.
+### As a bookmarklet
+
+Create bookmarklet from
+[index.min.js](https://raw.githubusercontent.com/bahmutov/game-of-github/master/index.min.js) - do not forget to prepend code with `javascript:` when
+saving the bookmarklet.
+
+### As a code snippet
+
+- Open DevTools / Sources tab
+- Open "Snippets" left tab
+- Right click and create new snippet
+- Paste the [index.js](index.js) and Save (Right click and select "Save")
+
+Now you can run this snippet over and over.
 
 ![code snippet](images/code-snippet.png)
 
