@@ -10,6 +10,12 @@
 
 It should start the "Game of GitHub" 😎
 
+![Game of GitHub](images/game-of-github.gif)
+
+**Hint** [https://github.com/lholznagel](https://github.com/lholznagel) has
+the [most awesome one](https://youtu.be/52-BfHPTtnE)! Much better than my
+little [oscillators](https://youtu.be/gowPfBWkBKc).
+
 Or better, open DevTools / Sources tab. Open "Snippets" left tab, Right click
 and create new snippet. Paste the [index.js](index.js) and Save
 (Right click and select "Save"). Now you can run this snippet over and over.
@@ -17,6 +23,11 @@ and create new snippet. Paste the [index.js](index.js) and Save
 ![code snippet](images/code-snippet.png)
 
 More about [code snippets](https://glebbahmutov.com/blog/chrome-dev-tools-code-snippets/)
+
+## Links
+
+* [Game of Life rules](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
+* [Sample JS implementation](https://jsfiddle.net/concannon/sy9py6qa/)
 
 ### Small print
 
