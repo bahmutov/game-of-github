@@ -43,10 +43,15 @@
         return Array.from(days).map(toDays)
     }
     var grid = Array.from(weeks).map(weekDays)
+
+    function hideWeek(week) {
+        week.forEach(day => {
+            day.rect.setAttribute('fill', '#ffffff')
+        })
+    }
     // drop the last "current" week
-    grid.pop()
-    // todo blank last "current" week
-    console.table(grid[0])
+    const lastWeek = grid.pop()
+    hideWeek(lastWeek)
 
     function findMinMax (grid) {
         let min = Infinity
