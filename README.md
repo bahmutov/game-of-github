@@ -8,6 +8,8 @@ Some people have legit gliders [https://github.com/colcarroll](https://github.co
 
 ![Glider](images/game-of-github-glider.gif)
 
+or walls [https://github.com/garethbjohnson](https://github.com/garethbjohnson).
+
 ## How to use
 
 ### As a bookmarklet
