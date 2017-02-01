@@ -4,6 +4,10 @@
 
 ![Game of GitHub](images/game-of-github-bookmarklet.gif)
 
+Some people have legit gliders [https://github.com/colcarroll](https://github.com/colcarroll)
+
+![Glider](images/game-of-github-glider.gif)
+
 ## How to use
 
 ### As a bookmarklet
