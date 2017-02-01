@@ -2,9 +2,18 @@
 
 > Play Game of Life in your GitHub contributions
 
-![Game of GitHub](images/game-of-github.gif)
+![Game of GitHub](images/game-of-github-bookmarklet.gif)
 
 ## How to use
+
+### As a bookmarklet
+
+You can drag the Game of GitHub bookmarklet from
+[https://glebbahmutov.com/game-of-github/](https://glebbahmutov.com/game-of-github/)
+
+Manually you can create bookmarklet from
+[index.min.js](https://raw.githubusercontent.com/bahmutov/game-of-github/master/index.min.js) - do not forget to prepend code with `javascript:` when
+saving the bookmarklet.
 
 ### Copy / paste
 
@@ -17,12 +26,6 @@ It should start the "Game of GitHub" 😎
 **Hint** [https://github.com/lholznagel](https://github.com/lholznagel) has
 the [most awesome one](https://youtu.be/52-BfHPTtnE)! Much better than my
 little [oscillators](https://youtu.be/gowPfBWkBKc).
-
-### As a bookmarklet
-
-Create bookmarklet from
-[index.min.js](https://raw.githubusercontent.com/bahmutov/game-of-github/master/index.min.js) - do not forget to prepend code with `javascript:` when
-saving the bookmarklet.
 
 ### As a code snippet
 
