@@ -1,0 +1,31 @@
+{
+  "name": "game-of-github",
+  "version": "1.0.0",
+  "description": "Play Game of Life in your GitHub contributions",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard --verbose --fix index.js",
+    "prebuild": "npm test",
+    "build": "uglifyjs index.js --compress --mangle -o index.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahmutov/game-of-github.git"
+  },
+  "keywords": [
+    "Game of Life",
+    "GitHub",
+    "bookmarklet",
+    "code snippet"
+  ],
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahmutov/game-of-github/issues"
+  },
+  "homepage": "https://github.com/bahmutov/game-of-github#readme",
+  "devDependencies": {
+    "standard": "8.6.0",
+    "uglify-js": "2.7.5"
+  }
+}
