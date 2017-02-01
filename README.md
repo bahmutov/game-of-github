@@ -48,6 +48,10 @@ More about [code snippets](https://glebbahmutov.com/blog/chrome-dev-tools-code-s
 
 * [Game of Life rules](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
 * [Sample JS implementation](https://jsfiddle.net/concannon/sy9py6qa/)
+* [Game of Life base on JS equality table](https://mlison.github.io/game-of-life/)
+* [Control your GitHub contributions](https://github.com/gelstudios/gitfiti)
+* [GitHub contributions as music](http://song-of-github.herokuapp.com/) - this
+  is my favorite
 
 ### Small print
 
