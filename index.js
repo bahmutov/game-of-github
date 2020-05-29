@@ -16,8 +16,8 @@
         .querySelectorAll('g g')
   console.log('%d weeks', weeks.length)
 
-  const textElement = document.querySelector('.js-contribution-graph h2')
-  const linkElement = document.querySelector('.js-contribution-graph .contrib-footer a')
+  const textElement = document.querySelector('.js-yearly-contributions h2')
+  const linkElement = document.querySelector('.contrib-footer a')
   linkElement.href = 'https://github.com/bahmutov/game-of-github'
   linkElement.innerText = 'Game of GitHub'
 
